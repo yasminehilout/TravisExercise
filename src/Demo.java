@@ -1,5 +1,4 @@
 public class Demo {
-
   public static void main(String argv[]) {
     Order order = new Order("Shane", 444.0f);
     DiscountStrategy strategy = null;
