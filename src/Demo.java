@@ -3,6 +3,9 @@ public class Demo {
     DiscountStrategy strategy = null;
     Order order = new Order("Peter", 444.0f);
 
+    
+
+
     int selectedStrat = Integer.parseInt(argv[0]);
     float amt = Float.parseFloat(argv[1]);
 
