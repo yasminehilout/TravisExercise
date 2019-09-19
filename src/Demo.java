@@ -6,7 +6,7 @@ public class Demo {
     
 
 
-    //int selectedStrat = Integer.parseInt(argv[0]);
+    int selectedStrat = Integer.parseInt(argv[0]);
     float amt = Float.parseFloat(argv[1]);
 
     switch(selectedStrat) {
