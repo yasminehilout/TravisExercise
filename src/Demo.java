@@ -1,12 +1,12 @@
 public class Demo {
   public static void main(String argv[]) {
     DiscountStrategy strategy = null;
-    Order order = new Order("Peter", 444.0f);
+    Order order = new Order("Peter", 400.0f);
 
     
 
 
-    int selectedStrat = Integer.parseInt(argv[0]);
+    //int selectedStrat = Integer.parseInt(argv[0]);
     float amt = Float.parseFloat(argv[1]);
 
     switch(selectedStrat) {
