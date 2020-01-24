@@ -5,8 +5,10 @@ public class Demo {
 
     
 
+    // discount strategy
+    int selectedStrat = Integer.parseInt(argv[0]);
 
-    //int selectedStrat = Integer.parseInt(argv[0]);
+    // discount amount
     float amt = Float.parseFloat(argv[1]);
 
     switch(selectedStrat) {
