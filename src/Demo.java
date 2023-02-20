@@ -1,4 +1,7 @@
 public class Demo {
+  /**
+   * @param argv
+   */
   public static void main(String argv[]) {
     DiscountStrategy strategy = null;
     Order order = new Order("Peter", 400.0f);
@@ -11,6 +14,7 @@ public class Demo {
     // discount amount
     float amt = Float.parseFloat(argv[1]);
 
+    final int selectedStrat = 0;
     switch(selectedStrat) {
     case 1:
       strategy = new PercentDiscountStrategy(amt);
